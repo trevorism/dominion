@@ -13,3 +13,7 @@ buildscript{
 }
 
 apply plugin: 'dominion.deploy'
+
+deploy{
+    location = "laila"
+}
