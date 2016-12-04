@@ -1,8 +1,0 @@
-@media(max-width: 320px){
-    #header .container{
-        width: 100%;
-    }
-    #header h2{
-        max-width: 100%;
-    }
-}
