@@ -1,0 +1,15 @@
+buildscript{
+    repositories{
+        mavenCentral();
+        flatDir{
+            dirs "lib"
+        }
+    }
+    dependencies{
+        classpath ':build-plugin:1.0'
+        classpath 'commons-net:commons-net:3.5'
+    }
+
+}
+
+apply plugin: 'dominion.deploy'
