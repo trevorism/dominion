@@ -35,3 +35,20 @@
         overflow: hidden!important;
     }
 }
+
+div#full {
+    margin-top: -20px;
+    height: 100vh;
+}
+
+.bg-image {
+    background: url(../image/dahomeimage.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+
+    background-position-x: 50%;
+    background-position-y: 50%;
+
+}
