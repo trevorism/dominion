@@ -75,3 +75,21 @@ div#full {
     bottom: 0px;
     text-align:center;
 }
+
+.image-caption{
+    text-align: center;
+    width:100%;
+    font-size: 20px;
+}
+
+.staff-title{
+    text-align: center;
+    width:100%;
+    font-size: 20px;
+    margin:5px;
+}
+
+.staff-block{
+    float:left;
+    margin:15px;
+}
