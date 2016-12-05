@@ -93,3 +93,7 @@ div#full {
     float:left;
     margin:15px;
 }
+
+.modal-dialog{
+    background-color: white;
+}
