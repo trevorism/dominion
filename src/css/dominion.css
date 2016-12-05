@@ -52,3 +52,11 @@ div#full {
     background-position-y: 50%;
 
 }
+
+.header-background{
+    background-color:#E0FFFF; height:10%; width:100%
+}
+
+.header-text{
+    font-family: "Segoe Script";
+}
