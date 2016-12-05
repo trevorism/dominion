@@ -42,7 +42,18 @@
 
 div#full {
     margin-top: -20px;
-    height: 70vh;
+}
+
+.tagline{
+    position:fixed;
+    bottom:90px;
+    color:white;
+    font-size:30px;
+    font-family: 'Palatino Linotype';
+    letter-spacing: 5px;
+    text-align: center;
+    width:100%;
+    font-weight: bold;
 }
 
 .bg-image {
