@@ -1,3 +1,7 @@
+.splash{
+    overflow:hidden;
+}
+
 @media (max-width: 1000px) {
     .navbar-header {
         float: none;
@@ -38,7 +42,7 @@
 
 div#full {
     margin-top: -20px;
-    height: 100vh;
+    height: 70vh;
 }
 
 .bg-image {
@@ -58,5 +62,16 @@ div#full {
 }
 
 .header-text{
+    color:black;
     font-family: "Segoe Script";
+}
+
+.header-text:hover{
+    text-decoration: none;
+}
+
+.footer{
+    position:center;
+    bottom: 0px;
+    text-align:center;
 }
