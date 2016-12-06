@@ -93,11 +93,12 @@ div#full {
     font-size: 20px;
 }
 
-.staff-title{
+.page-title {
     text-align: center;
     width:100%;
     font-size: 20px;
     margin:5px;
+    color: #2B547E;
 }
 
 .staff-block{
@@ -107,4 +108,9 @@ div#full {
 
 .modal-dialog{
     background-color: white;
+}
+
+.centered{
+    text-align: center;
+    width: 100%;
 }
