@@ -1,6 +1,6 @@
 $(function(){
     function resizeMainImg(){
-        var height = $(window).height() - 280;
+        var height = $(window).height() - 240;
 
         if(height < 500)
             height = 500;
