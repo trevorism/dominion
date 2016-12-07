@@ -5,6 +5,9 @@ $(function(){
         if(height < 500)
             height = 500;
 
+        if($(window).width() < 380)
+            height = height - 35;
+
         $("#full").height(height);
 
     }

@@ -75,7 +75,7 @@ div#full {
     -o-background-size: cover;      /* Opera*/
     background-size: cover;         /* Generic*/
 
-
+    overflow-y: auto;
     background-position-x: 50%;
     background-position-y: 50%;
 }
@@ -102,6 +102,11 @@ div#full {
 .footer{
     position:center;
     bottom: 0px;
+    text-align:center;
+}
+
+.about-footer{
+    position:center;
     text-align:center;
 }
 
