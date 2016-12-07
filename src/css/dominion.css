@@ -68,6 +68,24 @@ div#full {
 
 }
 
+.about-image{
+    background: url(../image/magnifier.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover; /* For WebKit*/
+    -moz-background-size: cover;    /* Mozilla*/
+    -o-background-size: cover;      /* Opera*/
+    background-size: cover;         /* Generic*/
+
+
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+
+.about{
+    font-size: 16px;
+    font-family:'Palantino Linotype';
+
+}
+
 .header-background{
     background-color:#E0FFFF; height:10%; width:100%
 }
