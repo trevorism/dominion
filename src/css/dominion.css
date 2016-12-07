@@ -2,7 +2,7 @@
     overflow:hidden;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 600px) {
     .navbar-header {
         float: none;
     }
@@ -46,7 +46,7 @@ div#full {
 
 .tagline{
     position:fixed;
-    bottom:90px;
+    bottom:160px;
     color:white;
     font-size:30px;
     font-family: 'Palatino Linotype';
@@ -75,7 +75,6 @@ div#full {
     -o-background-size: cover;      /* Opera*/
     background-size: cover;         /* Generic*/
 
-    overflow-y: auto;
     background-position-x: 50%;
     background-position-y: 50%;
 }
@@ -84,6 +83,10 @@ div#full {
     font-size: 20px;
     font-family:'Palantino Linotype';
 
+}
+
+.yscroll{
+    overflow-y: auto;
 }
 
 .header-background{
