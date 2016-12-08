@@ -18,7 +18,5 @@ class BuildPlugin implements Plugin<Project> {
             group = BasePlugin.BUILD_GROUP
             description = "Moves relevant code into $project.buildDir"
         }
-
-        //project.tasks.assemble.dependsOn("preCompile")
     }
 }

@@ -10,7 +10,6 @@ class TestPlugin {
         Project project = ProjectBuilder.builder().build()
         project.pluginManager.apply 'dominion.deploy'
 
-
         assert project.tasks.build
         assert project.tasks.deploy
     }
