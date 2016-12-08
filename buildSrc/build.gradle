@@ -1,0 +1,29 @@
+apply plugin: 'groovy'
+apply plugin: "jacoco"
+
+group = "com.dominionanesthesia"
+version = "1.0"
+targetCompatibility = "1.6"
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile gradleApi()
+    compile 'commons-net:commons-net:3.5'
+    testCompile 'junit:junit:4.12'
+}
+
+jacocoTestReport {
+    dependsOn 'test'
+    reports {
+        xml.enabled false
+        csv.enabled false
+        html.destination "${buildDir}/jacocoHtml"
+    }
+}
+
+check{
+    dependsOn 'jacocoTestReport'
+}

@@ -1,18 +1,16 @@
 buildscript{
     repositories{
-        mavenCentral();
-        flatDir{
-            dirs "lib"
-        }
+        mavenCentral()
     }
     dependencies{
-        classpath ':build-plugin:1.0'
         classpath 'commons-net:commons-net:3.5'
     }
 
 }
-
+apply plugin: 'base'
 apply plugin: 'dominion.deploy'
+
+project.tasks.assemble.dependsOn("preCompile")
 
 deploy{
     location = "laila"
