@@ -5,7 +5,7 @@ package com.dominion.plugin.deploy.ftp
  */
 class FtpCredentials {
 
-    String username = "dominionanesthesia@yahoo.com@dominionanesthesia.com";
+    String username = "ftp@dominionanesthesia.com";
     String password = "abacoDA6!"
     String url = "ftp.dominionanesthesia.com"
 
