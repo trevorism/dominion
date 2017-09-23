@@ -1,0 +1,49 @@
+<project>
+<actions/>
+<description>Dominion Anesthesia Website</description>
+<keepDependencies>false</keepDependencies>
+<properties/>
+<scm class="hudson.plugins.git.GitSCM" plugin="git@2.4.2">
+<configVersion>2</configVersion>
+<userRemoteConfigs>
+<hudson.plugins.git.UserRemoteConfig>
+<url>https://github.com/trevorism/dominion.git</url>
+</hudson.plugins.git.UserRemoteConfig>
+</userRemoteConfigs>
+<branches>
+<hudson.plugins.git.BranchSpec>
+<name>*/master</name>
+</hudson.plugins.git.BranchSpec>
+</branches>
+<doGenerateSubmoduleConfigurations>false</doGenerateSubmoduleConfigurations>
+<submoduleCfg class="list"/>
+<extensions/>
+</scm>
+<canRoam>true</canRoam>
+<disabled>false</disabled>
+<blockBuildWhenDownstreamBuilding>false</blockBuildWhenDownstreamBuilding>
+<blockBuildWhenUpstreamBuilding>false</blockBuildWhenUpstreamBuilding>
+<triggers>
+<hudson.triggers.SCMTrigger>
+<spec>H/5 * * * *</spec>
+<ignorePostCommitHooks>false</ignorePostCommitHooks>
+</hudson.triggers.SCMTrigger>
+</triggers>
+<concurrentBuild>false</concurrentBuild>
+<builders>
+<hudson.plugins.gradle.Gradle plugin="gradle@1.24">
+<description/>
+<switches/>
+<tasks>clean build deploy</tasks>
+<rootBuildScriptDir/>
+<buildFile/>
+<gradleName>(Default)</gradleName>
+<useWrapper>true</useWrapper>
+<makeExecutable>true</makeExecutable>
+<fromRootBuildScriptDir>true</fromRootBuildScriptDir>
+<useWorkspaceAsHome>false</useWorkspaceAsHome>
+</hudson.plugins.gradle.Gradle>
+</builders>
+<publishers/>
+<buildWrappers/>
+</project>
