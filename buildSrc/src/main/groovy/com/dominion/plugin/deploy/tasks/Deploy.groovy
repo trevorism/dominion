@@ -19,8 +19,6 @@ class Deploy extends ConventionTask {
     }
 
     void uploadFilesByFtp(FtpCredentials credentials) {
-        if(!location)
-            location = "trev"
         FtpUploader.uploadFilesByFtp(project, location, credentials)
     }
 
