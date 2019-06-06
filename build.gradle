@@ -13,5 +13,5 @@ apply plugin: 'dominion.deploy'
 project.tasks.assemble.dependsOn("preCompile")
 
 deploy{
-    location = "laila"
+    location = ""
 }
